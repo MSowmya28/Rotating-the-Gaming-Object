@@ -37,7 +37,36 @@ To add our C# Script file to our selected object, click on the C# Script file an
 Stop
 
 ## Program:
+```
+Ref no = 212221230107
+Done by: M.Sowmya
+```
+```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class text : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+        transform.RotateAround(Vector3.right, Vector3.up, 40 * Time.deltaTime);
+
+    }
+}
+```
 
 ## Output:
+![output](./arvr%201.1.png)
+![output](./arvr1.2.png)
 
 ## Result:
+Thus the program to rotating an object in unity is verified successfully
